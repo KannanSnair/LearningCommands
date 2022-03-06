@@ -5,3 +5,20 @@ git remote add origin "git repository url here"
 
 ## find the current github origin set in the commandline by;
 git remote -v
+
+Example/Scenario
+----------------
+
+Create a project in local machine.
+Create a new Repository in github and add the project to the repository.
+
+1. Create the maven project in local machine.
+2. Create the project as a git project
+	git init
+3. Add and commit the changes/files.
+	"git add ." and "git commit" or using "git gui"
+4. Create a new Repsitory from GitHub GUI. get the https url from github.
+5. create an origin(ORIGIN in general call as remote reference) as below.
+	git remote add origin "git repository url here"
+6. push the code to the remote repository
+	git push -u origin master
